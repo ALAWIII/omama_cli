@@ -114,6 +114,7 @@ async fn run_process(config: Config) -> Result<()> {
         return Ok(());
     }
     if let Some(pass) = config.install_tool {
+        #[cfg(target_os = "linux")]
         install_tool(&pass).await?;
 
         return Ok(());
