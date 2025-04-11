@@ -13,7 +13,7 @@ eula = false
 
 [dependencies]
 ollama-rs = { version = "0.2.5", features = ["stream"] }
-omama_manager = { git = "https://github.com/ALAWIII/omama_manager.git", branch = "main" }
+omama_manager = "0.1.0"
 anyhow = "1.0.97"
 clap = { version = "4.5.35", features = ["cargo"] }
 serde = { version = "1.0.217", features = ["derive"] }
