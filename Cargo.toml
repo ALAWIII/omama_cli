@@ -13,7 +13,7 @@ eula = false
 
 [dependencies]
 ollama-rs = { version = "0.2.5", features = ["stream"] }
-omama_manager = { path = "/run/media/allawiii/projects/zed/Rust/omama_manager/" }
+omama_manager = { path = "https://github.com/ALAWIII/omama_manager" }
 anyhow = "1.0.97"
 clap = { version = "4.5.35", features = ["cargo"] }
 serde = { version = "1.0.217", features = ["derive"] }
