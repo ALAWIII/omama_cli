@@ -2825,9 +2825,9 @@ dependencies = [
 
 [[package]]
 name = "omama_manager"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8eae44675e4f7c11b76136926d39b066cf825a1281d39e42df30a2c61460263a"
+checksum = "e891b51a40244147de98c49ea38a0db20661b2e72d012b1475ff35eb94427ab4"
 dependencies = [
  "anyhow",
  "chrono",
