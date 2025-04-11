@@ -6,6 +6,9 @@ description = "CLI tool used to bridge between the manager and the omama GUI"
 repository = "https://github.com/ALAWIII/omama_cli"
 authors = ["Allawiii"]
 
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
 
 [dependencies]
 ollama-rs = { version = "0.2.5", features = ["stream"] }
