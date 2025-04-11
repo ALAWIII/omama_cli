@@ -2825,6 +2825,7 @@ dependencies = [
 [[package]]
 name = "omama_manager"
 version = "0.1.0"
+source = "git+https://github.com/ALAWIII/omama_manager.git?branch=main#25be3818f96e0f9aaae7bd1d5b5ff31aeb2133ba"
 dependencies = [
  "anyhow",
  "chrono",
