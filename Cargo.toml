@@ -5,6 +5,7 @@ edition = "2024"
 description = "CLI tool used to bridge between the manager and the omama GUI"
 repository = "https://github.com/ALAWIII/omama_cli"
 authors = ["Allawiii"]
+publish = false
 [package.metadata.wix]
 upgrade-guid = "555A95F5-0B99-4AB5-8CA5-007B6966FBE6"
 path-guid = "8C92D4B7-9151-4AE5-8560-E34E476B31C9"
