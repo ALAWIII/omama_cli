@@ -2778,6 +2778,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "ollama-rs"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a4b4750770584c8b4a643d0329e7bedacc4ecf68b7c7ac3e1fec2bafd6312f7"
+dependencies = [
+ "async-stream",
+ "log",
+ "reqwest",
+ "schemars",
+ "serde",
+ "serde_json",
+ "static_assertions",
+ "thiserror 2.0.12",
+ "tokio",
+ "tokio-stream",
+ "url",
+]
+
+[[package]]
 name = "ollama_models_info_fetcher"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2815,7 +2834,7 @@ version = "0.1.1"
 dependencies = [
  "anyhow",
  "clap",
- "ollama-rs",
+ "ollama-rs 0.3.0",
  "omama_manager",
  "serde",
  "serde_json",
@@ -2832,7 +2851,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "nanoid",
- "ollama-rs",
+ "ollama-rs 0.2.6",
  "ollama_models_info_fetcher",
  "ollama_td",
  "once_cell",
