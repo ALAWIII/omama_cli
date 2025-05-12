@@ -1,6 +1,6 @@
 [package]
 name = "omama_cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "CLI tool used to bridge between the manager and the omama GUI"
 repository = "https://github.com/ALAWIII/omama_cli"
@@ -12,7 +12,7 @@ readme = "README.md"
 
 [dependencies]
 ollama-rs = { version = "0.2.5", features = ["stream"] }
-omama_manager = "0.1.1"
+omama_manager = "0.1.2"
 anyhow = "1.0.97"
 clap = { version = "4.5.35", features = ["cargo"] }
 serde = { version = "1.0.217", features = ["derive"] }
